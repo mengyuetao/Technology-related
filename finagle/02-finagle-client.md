@@ -56,6 +56,7 @@ Mux 调用apply创建新的客户端 Mux.client （步骤1），StackClient 返�
 newClient 创建 ServiceFactory，这里首先创建 endpointer（步骤7）
 
  **最重要的方法**
-newTrsport，newDispatch （步骤11）， [filter 嵌入](01-finagle-stack.md) 在步骤（13）
+ 
+1 newTrsport，2 newDispatch （步骤11）， [filter 嵌入](01-finagle-stack.md) 在步骤（13）
 endpointer 绑定到一个 transport，每次请求 service时候，调用一次 newDispath 并提供 transport。
 实现这两个模版方法里可以关联不同的协议栈，实现不同类型的客户端如 Mux，http。
