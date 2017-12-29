@@ -3,5 +3,5 @@ site_description: Technology analysis learn share
 site_author: YuetaoMeng  mfty1980@sina.com
 
 
-docs_dir: .
+docs_dir: finagle
 theme: readthedocs
