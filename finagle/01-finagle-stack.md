@@ -1,5 +1,8 @@
 ## Finagle 源码分析之 Stack[T]
 
+- Author: Yuetao Meng
+- Mail: mfty1980@sina.com
+- Date: 2017-12-29
 
 #### Stack[T]
 

@@ -27780,7 +27780,7 @@
 															"alpha": 1.5707963267948966,
 															"distance": 10,
 															"underline": false,
-															"text": "4 : newClient",
+															"text": "6 : newClient",
 															"horizontalAlignment": 2,
 															"verticalAlignment": 5,
 															"wordWrap": false
@@ -28456,7 +28456,7 @@
 															"alpha": -3.141592653589793,
 															"distance": 47,
 															"underline": false,
-															"text": "6 : copy1",
+															"text": "8 : copy1",
 															"horizontalAlignment": 2,
 															"verticalAlignment": 5,
 															"wordWrap": false
@@ -29132,7 +29132,7 @@
 															"alpha": 0.7952987300050506,
 															"distance": 71.42128534267638,
 															"underline": false,
-															"text": "7 : newTransport",
+															"text": "9 : newTransport",
 															"horizontalAlignment": 2,
 															"verticalAlignment": 5,
 															"wordWrap": false
@@ -29633,7 +29633,7 @@
 															"alpha": 1.5707963267948966,
 															"distance": 10,
 															"underline": false,
-															"text": "8 : newTransport",
+															"text": "10 : newTransport",
 															"horizontalAlignment": 2,
 															"verticalAlignment": 5,
 															"wordWrap": false
@@ -30309,7 +30309,7 @@
 															"alpha": 0.5028431405503906,
 															"distance": 68.47627326307996,
 															"underline": false,
-															"text": "5 : endpointer",
+															"text": "7 : endpointer",
 															"horizontalAlignment": 2,
 															"verticalAlignment": 5,
 															"wordWrap": false
@@ -30985,7 +30985,7 @@
 															"alpha": -0.7303356938489789,
 															"distance": 89.9388681271896,
 															"underline": false,
-															"text": "9 : return new EndpointerModule （transport,copy1.newDispatch）",
+															"text": "11 : return new EndpointerModule （transport,copy1.newDispatch）",
 															"horizontalAlignment": 2,
 															"verticalAlignment": 5,
 															"wordWrap": false
@@ -31661,7 +31661,7 @@
 															"alpha": 0.3217505043966497,
 															"distance": 63.245553203367585,
 															"underline": false,
-															"text": "3 : newClient for ServiceFactory Feature",
+															"text": "5 : newClient for ServiceFactory Feature",
 															"horizontalAlignment": 2,
 															"verticalAlignment": 5,
 															"wordWrap": false
@@ -32686,7 +32686,7 @@
 															"alpha": -3.7886399536947586,
 															"distance": 56.4003546088143,
 															"underline": false,
-															"text": "11 : stack",
+															"text": "2 : stack",
 															"horizontalAlignment": 2,
 															"verticalAlignment": 5,
 															"wordWrap": false
@@ -33362,7 +33362,7 @@
 															"alpha": -1.5707957385596025,
 															"distance": 17,
 															"underline": false,
-															"text": "10 : stack",
+															"text": "12 : stack",
 															"horizontalAlignment": 2,
 															"verticalAlignment": 5,
 															"wordWrap": false
@@ -33863,7 +33863,7 @@
 															"alpha": 1.5707963267948966,
 															"distance": 10,
 															"underline": false,
-															"text": "2 : config",
+															"text": "4 : config",
 															"horizontalAlignment": 2,
 															"verticalAlignment": 5,
 															"wordWrap": false
@@ -40948,7 +40948,7 @@
 															"alpha": 1.5707963267948966,
 															"distance": 10,
 															"underline": false,
-															"text": "12 : addModule",
+															"text": "3 : addModule",
 															"horizontalAlignment": 2,
 															"verticalAlignment": 5,
 															"wordWrap": false
@@ -42078,6 +42078,46 @@
 										},
 										{
 											"_type": "UMLMessage",
+											"_id": "AAAAAAFgfeZHyM6nTrU=",
+											"_parent": {
+												"$ref": "AAAAAAFgfXBlpXfmKsM="
+											},
+											"name": "stack",
+											"source": {
+												"$ref": "AAAAAAFgfYSgMocWB4k="
+											},
+											"target": {
+												"$ref": "AAAAAAFgfYSEKYb6G9k="
+											},
+											"visibility": "public",
+											"messageSort": "synchCall",
+											"connector": {
+												"$ref": "AAAAAAFgfeZHxc6Z6n8="
+											},
+											"isConcurrentIteration": false
+										},
+										{
+											"_type": "UMLMessage",
+											"_id": "AAAAAAFgfh0mg48F294=",
+											"_parent": {
+												"$ref": "AAAAAAFgfXBlpXfmKsM="
+											},
+											"name": "addModule",
+											"source": {
+												"$ref": "AAAAAAFgfebRYNKMAGI="
+											},
+											"target": {
+												"$ref": "AAAAAAFgfhzxVos/pI0="
+											},
+											"visibility": "public",
+											"messageSort": "synchCall",
+											"connector": {
+												"$ref": "AAAAAAFgfh0mgY73Sk0="
+											},
+											"isConcurrentIteration": false
+										},
+										{
+											"_type": "UMLMessage",
 											"_id": "AAAAAAFgfe2unOYUwmo=",
 											"_parent": {
 												"$ref": "AAAAAAFgfXBlpXfmKsM="
@@ -42253,46 +42293,6 @@
 											"messageSort": "synchCall",
 											"connector": {
 												"$ref": "AAAAAAFgfekrKdnCET4="
-											},
-											"isConcurrentIteration": false
-										},
-										{
-											"_type": "UMLMessage",
-											"_id": "AAAAAAFgfeZHyM6nTrU=",
-											"_parent": {
-												"$ref": "AAAAAAFgfXBlpXfmKsM="
-											},
-											"name": "stack",
-											"source": {
-												"$ref": "AAAAAAFgfYSgMocWB4k="
-											},
-											"target": {
-												"$ref": "AAAAAAFgfYSEKYb6G9k="
-											},
-											"visibility": "public",
-											"messageSort": "synchCall",
-											"connector": {
-												"$ref": "AAAAAAFgfeZHxc6Z6n8="
-											},
-											"isConcurrentIteration": false
-										},
-										{
-											"_type": "UMLMessage",
-											"_id": "AAAAAAFgfh0mg48F294=",
-											"_parent": {
-												"$ref": "AAAAAAFgfXBlpXfmKsM="
-											},
-											"name": "addModule",
-											"source": {
-												"$ref": "AAAAAAFgfebRYNKMAGI="
-											},
-											"target": {
-												"$ref": "AAAAAAFgfhzxVos/pI0="
-											},
-											"visibility": "public",
-											"messageSort": "synchCall",
-											"connector": {
-												"$ref": "AAAAAAFgfh0mgY73Sk0="
 											},
 											"isConcurrentIteration": false
 										},
