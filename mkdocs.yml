@@ -1,0 +1,7 @@
+site_name: Technology-related
+site_description: Technology analysis learn share
+site_author: YuetaoMeng  mfty1980@sina.com
+
+
+docs_dir: .
+theme: readthedocs
