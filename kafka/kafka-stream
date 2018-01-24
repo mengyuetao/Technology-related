@@ -1,0 +1,10 @@
+
+
+## 映射关系
+
+在一个KafkaStream 对象中，存在如下关系
+
+AppId = GroupId
+ProcessId = 随机数字 UUID
+ClientId = AppId + ProcessId
+KafkaStreamThreadId = clientId + ‘StreamThread’ + 自增（AutoIncream） 
