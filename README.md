@@ -13,3 +13,9 @@
 [Finagle 源码分析之 Mux.Client ](finagle/02-finagle-client.md)  | Finagle源码分析
 [Finagle 源码分析之 Mux.Server ](finagle/03-finagle-server.md)  | Finagle源码分析
 [Finagle 源码分析之 Mux.Promise ](finagle/04-finagle-promise.md)  | Finagle源码分析
+
+## kafka
+
+名称        | 说明
+------     | ---------
+[kafka 之 kafka-stream ](kafka/kafka-stream.md)  | Kafka-Stream 例子和分析 
