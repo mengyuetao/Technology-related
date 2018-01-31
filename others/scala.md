@@ -1,8 +1,8 @@
 
 
-#### 场景1
+#### 2018.1.30
 
-2018.1.31
+
 
 finatra ```httpObject httpRescure```
 
@@ -18,4 +18,16 @@ httpRescure 转换 Timeout等异常为统一的 httpException
 - implict 扩展 Feature 能力，添加功能
 - 多个Feature 结果合并 使用 for comprehencen
 - searchService 嵌套 service ， public ，private
+
+
+####  2018.1.31
+
+finatra exceptions
+
+```ExceptionManager``` 注册 ```ExceptionMapper[T]```
+```T``` 作为key，Mapper 作为 Value  Mapper toResponse 把 T 转换为 Response
+
+总结如下
+
+- SimpleResponse，RequestBuiler，InmemoryStateReceiver，RamdonStringUtil，TestInject（）.create
 
