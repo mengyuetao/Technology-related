@@ -45,3 +45,22 @@ com.twitter.finagle.mux.ClientDispatcher
 * onFailure 被添加到 Fature-02 waitQueue
 * 由于 Fature-01 没有被引用，将被释放
 * 如此直到 Fature-N 失败，OnFailure 触发，关闭Trans。
+
+
+## 实现细节
+
+ ####  respond 函数
+
+  -  生成新的Future ， chain 老的 future
+  - K[A] Monitored
+
+
+ #### transform 函数
+
+ - 生成新的Future 状态为Transforming， FowardInterrupt到原有的 Feature
+ - K[A] Transform
+ - 原有的Future 完成后，become fn 返回的 feature
+
+ #### setValue 函数
+
+ - 使用 独立的线程执行  全部的 K[A]
