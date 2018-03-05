@@ -21,3 +21,14 @@
 名称        | 说明
 ------     | ---------
 [kafka 之 kafka-stream ](kafka/kafka-stream.md)  | Kafka-Stream 例子和分析
+
+
+
+
+## scala
+
+名称        | 说明
+------     | ---------
+[基础](scala/basic.md)  | java容易忘记的概念
+[implicit](scala/implicit.md)  | implicit 难点
+[pattern matching](scala/PatternMatching.md)  | Pattern Matching 难点

@@ -1,5 +1,3 @@
-
-
 #### 2018.1.30
 
 
@@ -12,7 +10,7 @@ httpRescure 转换 Timeout等异常为统一的 httpException
 总结如下：
 
 - scalaTest ,test、shouldequal、assertFeature
-- Rescure[RescureException:mainfest],mainfest 的使用， isAssigableFrom 
+- Rescure[RescureException:mainfest],mainfest 的使用， isAssigableFrom
 - Feature convert 模式，try[Option[T]] 如何包括 T, Throw，getornotfoundException 模式,统一notFond异常
 - Feature convert 模式，rescue 统一异常结果
 - implict 扩展 Feature 能力，添加功能
@@ -30,4 +28,3 @@ finatra exceptions
 总结如下
 
 - SimpleResponse，RequestBuiler，InmemoryStateReceiver，RamdonStringUtil，TestInject（）.create
-
