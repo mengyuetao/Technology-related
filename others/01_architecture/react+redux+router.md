@@ -13,17 +13,17 @@ https://ant.design/docs/react/use-with-create-react-app-cn
 
 ```
 
-   "echarts": "^3.1.1",
-   "echarts-for-react": "^1.1.6", ?
-   "es6-promise": "^3.2.1",           ok
-   "immutable": "3.7.6",        ?     ok
-   "isomorphic-fetch": "^2.2.1", ?    ok
-   "react-blocks"                     ok
-   "react-router": "^2.0.0",          ok
-   "react-router-redux": "^4.0.5",    ok
-   "redux": "3.3.1",                  ok
-   "redux-thunk": "^2.1.0",           ok
-    react-redux                       ok
+"antd": "^2.12.0",
+"echarts": "^3.5.4",
+"echarts-for-react": "^1.2.2",
+"immutable": "^3.8.1",
+"react-redux": "^5.0.4",
+"react-router": "^4.1.2",
+"react-router-dom": "^4.1.2",
+"react-router-redux": "^4.0.5",
+"redux": "^3.6.0",
+"redux-thunk": "^2.2.0",
+"babel-plugin-import": "^1.1.1",
 
 ```
 
@@ -31,6 +31,7 @@ https://ant.design/docs/react/use-with-create-react-app-cn
 
 in `webpack.config.dev.js`   `devtool: 'eval'`
 
+add antd plugin 
 
 # in package json
 

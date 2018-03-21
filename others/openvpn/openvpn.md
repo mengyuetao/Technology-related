@@ -11,7 +11,13 @@ http://blog.csdn.net/defeattroy/article/details/42523175 CentOS6.5 64位安装op
 
 
 
+
 #### 配置文件中对应的字段文件对应关系
+
+按照官方文档生成证书和密钥匙
+
+- ca 文件，用来签名 server 和 client 公钥密钥
+- ca 签名正确的情况下， server client 分别通过 各自的 公钥密钥 互相验证
 
 > sample/openvpn
 
@@ -21,21 +27,33 @@ http://blog.csdn.net/defeattroy/article/details/42523175 CentOS6.5 64位安装op
 
 
 
-
-
-
 #### 运行
 
      openvpn --config C:\Users\test\Documents\04_soft\UnoTelly_US_OpenVPN.ovpn
 
 
+#### 服务器配置关键
+
+
+dev tun         工作在三层网络
+topology subnet 网络方式，子网
+
+push "route 192.168.122.0 255.255.255.0"   添加 服务器侧子网路由
+push "route 192.168.150.0 255.255.255.0"   添加 服务器侧子网路由
+
+push "route 115.236.59.94 255.255.255.255 net_gateway"   所有的路由走VPN，除了ssh
+push "redirect-gateway def1"                            所有的路由走VPN
+
 #### 通过 ssh 运行
 
      服务器 upd 改tcp
+
      $ ssh -l root -N -L1194:192.168.122.85:1194  115.236.59.94            
      \UnoTelly_US_OpenVPN.ovpn server 改为 127.0.0.1
 
-
+#### 配置客户端固定 IP
+ccd 目录中创建 client1 （客户端证书  Common Name ）
+ifconfig-push 10.8.0.11 255.255.255.0
 
 
 #### client 路由
@@ -44,6 +62,8 @@ http://blog.csdn.net/defeattroy/article/details/42523175 CentOS6.5 64位安装op
 route.exe ADD 192.168.122.0 MASK 255.255.255.0 10.8.0.1
 
 在server 端配置 push 192.168.122.0 255.255.0
+
+
 
 
 
