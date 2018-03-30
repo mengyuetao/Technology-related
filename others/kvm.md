@@ -1,4 +1,4 @@
-## overview 
+## overview
 
 First: leo 2015-5
 
@@ -9,7 +9,7 @@ First: leo 2015-5
 #### 服务器环境
 操作系统: CentOS 7   mini 最小化安装
 虚拟系统 KVM
-	 yum install qemu-kvm libvirt libvirt-python libguestfs-tools virt-install 
+	 yum install qemu-kvm libvirt libvirt-python libguestfs-tools virt-install
 
 
 在安装启动的时候，加入 nomodeset 参数。
@@ -33,36 +33,36 @@ grub2-mkconfig -o /boot/grub2/grub.cfg
 
 3 文件系统
 
-	 mkdir /data1/vm-images 
+	 mkdir /data1/vm-images
 	semanage fcontext --add -t virt_image_t '/vm-images(/.*)?'
-	restorecon -R -v /vm-images 
+	restorecon -R -v /vm-images
 
 
 3 网络环境配置
  桥接网卡 br0 配置如下
 
  1. /etc/sysconfig/network-scripts/ifcfg-em1  
-BRIDGE=br0 
- 2.  /etc/sysconfig/network-scripts/ifcfg-br0 
+BRIDGE=br0
+ 2.  /etc/sysconfig/network-scripts/ifcfg-br0
 
-	DEVICE="br0" 
-	BOOTPROTO="dhcp" 
-	IPV6INIT="yes" 
-	IPV6_AUTOCONF="yes" 
-	ONBOOT="yes" 
-	TYPE="Bridge" 
-	DELAY="0" 
-      
+	DEVICE="br0"
+	BOOTPROTO="dhcp"
+	IPV6INIT="yes"
+	IPV6_AUTOCONF="yes"
+	ONBOOT="yes"
+	TYPE="Bridge"
+	DELAY="0"
 
-     
+
+
 3. /etc/sysctl.conf:
 
 xxx
 
-	net.ipv4.ip_forward = 1 
-	sysctl -p /etc/sysctl.conf 
+	net.ipv4.ip_forward = 1
+	sysctl -p /etc/sysctl.conf
 
- 
+
 xxxx
 
  	 virt-install \
@@ -109,7 +109,7 @@ virsh vncdisplay centos6.5-vm2
 #### 建立隧道
  ssh -l root -L5900:127.0.0.1:5900  192.168.2.150
 
-#### 使用 
+#### 使用
 realvnc 连接隧道
 
 #### 安装完后
@@ -129,7 +129,16 @@ virt-clone \
 
 #### 网卡问题:
 
- /etc/udev/rules.d/70-persistent-net.rules 
+ /etc/udev/rules.d/70-persistent-net.rules
+
+/etc/sysconfig/network-scripts
+DEVICE=eth0
+TYPE=Ethernet
+ONBOOT=yes
+NM_CONTROLLED=yes
+BOOTPROTO=static
+IPADDR=192.168.150.10
+NETMASK=255.255.255.0
 
 #### 主机名称
 
@@ -146,7 +155,7 @@ virsh managedsave centos6.5-LB1
    Guestfish 参考  http://libguestfs.org/guestfs-recipes.1.html。
 
    guestfish --rw -a centos63_desktop.img
-   <fs> run 
+   <fs> run
 
    mount /dev/vg_centosbase/lv_root /
 
@@ -159,9 +168,3 @@ http://blog.csdn.net/tantexian/article/details/40044453
 ### 格式转换
 
 qemu-img convert -f raw -O qcow2 centos6.5-manage1.raw centos6.5-manage1.qcow2
-
-
-
-
-
-                                                                                                                                                                                                                  
