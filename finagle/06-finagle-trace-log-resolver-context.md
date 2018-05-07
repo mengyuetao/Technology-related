@@ -4,6 +4,9 @@
 - Mail: mfty1980@sina.com
 - Date: 2018-05-07
 
+
+
+
 #### log
 
 基本上是对 slf4j 封装， 但是加入了一些 Scala的写法
@@ -73,3 +76,11 @@ trace 记录？
 ```
 ClientTracingFilter
 ```
+
+
+## 相关资料
+
+> http://bigbully.github.io/Dapper-translation/
+>
+Dapper，大规模分布式系统的跟踪系统
+作者：Benjamin H. Sigelman, Luiz Andr´e Barroso, Mike Burrows, Pat Stephenson, Manoj Plakal, Donald Beaver, Saul Jaspan, Chandan Shanbhag
