@@ -14,7 +14,7 @@ UPDATE `jpcf-82`.`supply_endpoint_order` SET `update_time`=date_add(`update_time
 
 修改数据库，生成测试数据，下面模板
 
-    UPDATE `core_product` set `update_time`=date_add(`update_time`, interval 1 second) where `product_id`>0; 
+    UPDATE `core_product` set `update_time`=date_add(`update_time`, interval 1 second) where `product_id`>0;
 
 #### 取子串
 
@@ -27,3 +27,10 @@ SELECT info,SUBSTRING(info,LOCATE('count',info)+7,LOCATE('}',info,LOCATE('count'
 ```
 select y.info, y.x from (
 SELECT info,SUBSTRING(info,LOCATE('count',info)+7,LOCATE('}',info,LOCATE('count',info))-LOCATE('count',info)-7) as x FROM jpcf_report_82.report_endpoint where `key` like 'endpointOrder|day\_%' ) as y where x > 100
+
+
+
+
+## 权限
+
+GRANT ALL ON test.* TO 'root'@'%';

@@ -14,6 +14,7 @@
 [Finagle 源码分析之 Mux.Server ](finagle/03-finagle-server.md)  | Finagle源码分析
 [Finagle 源码分析之 Mux.Promise ](finagle/04-finagle-promise.md)  | Finagle源码分析
 [Finagle 源码分析之 balancer 负载均衡 ](finagle/05-finagle-balancer.md)  | Finagle源码分析
+[Finagle 源码分析之 log resolver context trace ](finagle/06-finagle-trace-log-resolver-context.md)  | Finagle源码分析
 
 
 ## kafka
