@@ -17,6 +17,13 @@
 [Finagle 源码分析之 log resolver context trace ](finagle/06-finagle-trace-log-resolver-context.md)  | Finagle源码分析
 
 
+## finatra
+
+名称        | 说明
+------     | ---------
+[Finatra 源码分析之 test ](finatra/02-finatra-test.md)  | Finatra 源码分析
+
+
 ## kafka
 
 名称        | 说明
