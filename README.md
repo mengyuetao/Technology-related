@@ -30,6 +30,11 @@
 ------     | ---------
 [kafka 之 kafka-stream ](kafka/kafka-stream.md)  | Kafka-Stream 例子和分析
 
+## zookeeper
+
+名称        | 说明
+------     | ---------
+[Zookeeper架构及FastLeaderElection机制](zookeeper/zookeeper.md)  | Zookeeper 要点
 
 
 
