@@ -5,7 +5,7 @@ CentOS-6.5-x86_64-bin-DVD1to2
 
 ### 升级 Linux 源
 
-rpm -Uvh http://mirror.webtatic.com/yum/el6/latest.rpm 
+rpm -Uvh http://mirror.webtatic.com/yum/el6/latest.rpm
 
 
 ###安装php
@@ -15,14 +15,16 @@ yum install phpw54
 ###安装mysql 5.7
 1. 参考官网
 2. 允许远程访问    
-3. 
+3.
 > mysql>update mysql.user set host = '%' where user = 'root';
-> 
+>
 > mysql>GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'MyNewPass4!' WITH GRANT OPTION;
 
 
 
 ###zabbix源码3.0
+
+0.  yum -y groupinstall "Development Tools" 安装编译工具
 
 1. 安装参考官网 源码安装章节，安装必要的依赖。
 2. 修改路径权限
@@ -43,7 +45,7 @@ yum install phpw54
 ntpdate -u time.windows.com
 
 
-### agent 
+### agent
  /etc/zabbix/agentd.conf 配置服务器IP , 否则数据没法获取
 
 
@@ -60,5 +62,3 @@ cd zabbix-3.0.3
 make install
 vi /usr/local/etc/zabbix_agentd.conf
 zabbix_agentd
-
-
