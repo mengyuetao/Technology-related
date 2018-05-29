@@ -28,8 +28,10 @@
 
 名称        | 说明
 ------     | ---------
-[kafka 之 kafka-stream ](kafka/kafka-stream.md)  | Kafka-Stream 例子和分析
 [Kafka 之 replication](kafka/kafka-replication.md)  | Kafka replication 分析
+[kafka 之 kafka-stream ](kafka/kafka-stream.md)  | Kafka-Stream 例子和分析
+[Kafka 之 replication](kafka/kafka-stream-Exactly-Once.md)  | Kafka-stream 处理一次且一次 分析
+
 
 
 ## zookeeper
