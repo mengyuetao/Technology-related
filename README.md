@@ -30,7 +30,7 @@
 ------     | ---------
 [Kafka 之 replication](kafka/kafka-replication.md)  | Kafka replication 分析
 [kafka 之 kafka-stream ](kafka/kafka-stream.md)  | Kafka-Stream 例子和分析
-[Kafka 之 replication](kafka/kafka-stream-Exactly-Once.md)  | Kafka-stream 处理一次且一次 分析
+[Kafka 之 Exactly-Once](kafka/kafka-stream-Exactly-Once.md)  | Kafka-stream 处理一次且一次 分析
 
 
 
@@ -40,6 +40,13 @@
 ------     | ---------
 [Zookeeper架构及FastLeaderElection机制](zookeeper/zookeeper.md)  | Zookeeper 要点
 
+
+## zabbix
+
+名称        | 说明
+------     | ---------
+[zabbix 准备和安装](zabbix/zabbix.md)  | zabbix 安装的一些坑
+[zabbix 使用](zabbix/zabbix-use.md)  | zabbix 使用的一些理解
 
 
 ## scala
