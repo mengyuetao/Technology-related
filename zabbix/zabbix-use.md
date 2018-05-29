@@ -60,3 +60,15 @@ Monitoring -> latest data
 
 这个功能主要是提供资产管理，
 启用的话在配置中，配置自动inventory，zabbix会自动添加设备和资产
+
+
+## 待补充
+
+- triger （高）
+- event （高）
+- map  （中）
+- web monitor （高）
+- it service （高）
+- low level discory ， 自动发现并添加item，减少配置工作 （优先级 低）
+- auto regisetr  ， 自动发现并添加主机，减少配置工作 （优先级 低）
+- maco，宏 （优先级 低）
