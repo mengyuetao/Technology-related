@@ -56,3 +56,9 @@
 [基础](scala/basic.md)  | java容易忘记的概念
 [implicit](scala/Implicit.md)  | implicit 难点
 [pattern matching](scala/PatternMatching.md)  | Pattern Matching 难点
+
+
+## basic
+名称        | 说明
+------     | ---------
+[regulr-expressions 难点](others/regular-expressions.md)  | 正则表达式的坑坑
