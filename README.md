@@ -10,7 +10,7 @@
 
 名称        | 说明
 ------     | ---------
-[mysql 可用性架构之 innodb cluster ](mysql/mysql-innodb-clustermd)  | mysql 可用性架构分析
+[mysql 可用性架构之 innodb cluster ](mysql/mysql-innodb-cluster.md)  | mysql 可用性架构分析
 
 
 
