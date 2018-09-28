@@ -49,7 +49,7 @@ bin/kafka-server-start.sh  config/server.properties
 - 启动 kafka-connector
 - 加载 jdbc-connector-sink 插件到 kafka-connector
 
-
+> 注意　window 解压的话一些链接文件不支持，提示错误，揭开后需要把这批链接文件替换为实际链接的文件副本
 
 ```
 # 配置  schema-registery
