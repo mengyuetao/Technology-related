@@ -1,7 +1,8 @@
 
 #### 服务器安装
 
-http://blog.csdn.net/defeattroy/article/details/42523175 CentOS6.5 64位安装openvpn
+http://blog.csdn.net/defeattroy/article/details/42523175
+
 
 #### 客户端安装
 
