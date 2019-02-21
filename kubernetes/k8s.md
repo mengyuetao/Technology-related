@@ -39,8 +39,8 @@ openvpn --config 94-s5-1.ovpn
 关闭swap
 配置k8s.conf , modprobe br_netfilter
 
->https://blog.csdn.net/xiegh2014/article/details/84830880   安装
-https://blog.csdn.net/qq1083062043/article/details/84839609 安装
+>https://blog.csdn.net/xiegh2014/article/details/84830880   安装   CentOS7.5 Kubernetes V1.13（最新版）二进制部署集群
+https://blog.csdn.net/qq1083062043/article/details/84839609 安装   使用kubeadm安装Kubernetes1.13
 
 # 安装Docker
 按照官方文档安装
