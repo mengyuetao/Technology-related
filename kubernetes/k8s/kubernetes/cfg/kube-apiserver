@@ -1,0 +1,21 @@
+KUBE_APISERVER_OPTS="--logtostderr=false \
+--v=4 \
+--log-dir /k8s/kubernetes/log \
+--etcd-servers=https://172.28.80.207:2379,https://172.28.80.205:2379,https://172.28.80.211:2379 \
+--bind-address=172.28.80.207 \
+--secure-port=6443 \
+--advertise-address=172.28.80.207 \
+--allow-privileged=true \
+--service-cluster-ip-range=10.0.0.0/16 \
+--enable-admission-plugins=NamespaceLifecycle,LimitRanger,SecurityContextDeny,ServiceAccount,ResourceQuota,NodeRestriction \
+--authorization-mode=RBAC,Node \
+--enable-bootstrap-token-auth \
+--token-auth-file=/k8s/kubernetes/cfg/token.csv \
+--service-node-port-range=30000-50000 \
+--tls-cert-file=/k8s/kubernetes/ssl/server.pem  \
+--tls-private-key-file=/k8s/kubernetes/ssl/server-key.pem \
+--client-ca-file=/k8s/kubernetes/ssl/ca.pem \
+--service-account-key-file=/k8s/kubernetes/ssl/ca-key.pem \
+--etcd-cafile=/k8s/etcd/ssl/ca.pem \
+--etcd-certfile=/k8s/etcd/ssl/server.pem \
+--etcd-keyfile=/k8s/etcd/ssl/server-key.pem"
