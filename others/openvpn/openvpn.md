@@ -2,6 +2,7 @@
 #### 服务器安装
 
 http://blog.csdn.net/defeattroy/article/details/42523175
+https://www.cnblogs.com/fuyanwen/p/8195956.html
 
 
 #### 客户端安装
