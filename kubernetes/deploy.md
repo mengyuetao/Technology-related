@@ -210,7 +210,7 @@ kubectl config use-context default --kubeconfig=kube-proxy.kubeconfig
 # 配置一个名为default的集群，并指定服务地址与根证书
 
 KUBE_APISERVER="https://10.0.2.4:6443"
-kubectl config set-cluster kubernetes \
+kubectl config set-cluster default \
   --certificate-authority=/k8s/kubernetes/ssl/ca.pem \
   --embed-certs=true \
   --server=${KUBE_APISERVER} \
@@ -229,7 +229,7 @@ kubectl config set-credentials admin \
 # 设置一个名为default使用default集群与admin用户的上下文，
 
 kubectl config set-context default \
-  --cluster=kubernetes \
+  --cluster=default \
   --user=admin \
   --kubeconfig=admin.kubeconfig
 
@@ -243,5 +243,14 @@ kubectl config use-context default --kubeconfig=admin.kubeconfig
 
 cp admin.kubeconfig ~/.kube/config
 /etc/profile.d/kube.sh  把kubectl 加到path
+
+```
+
+
+
+## 同意
+```
+kubectl get csr
+ kubectl certificate approve node-csr-ddB3GwD94NKP1ZJ8Rfn_cZe5eOWL_MkX9VLdEI5pAmY
 
 ```
