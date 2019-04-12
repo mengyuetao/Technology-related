@@ -201,3 +201,6 @@ kubectl config use-context default --kubeconfig=kube-proxy.kubeconfig
 
 ## 部署 kube-proxy 组件
 > /k8s/kubernetes/cfg/kube-proxy
+
+## 创建管理员
+https://blog.csdn.net/xiaomin1991222/article/details/84879610
