@@ -203,4 +203,45 @@ kubectl config use-context default --kubeconfig=kube-proxy.kubeconfig
 > /k8s/kubernetes/cfg/kube-proxy
 
 ## 创建管理员
-https://blog.csdn.net/xiaomin1991222/article/details/84879610
+> https://blog.csdn.net/xiaomin1991222/article/details/84879610
+
+
+```
+# 配置一个名为default的集群，并指定服务地址与根证书
+
+KUBE_APISERVER="https://10.0.2.4:6443"
+kubectl config set-cluster kubernetes \
+  --certificate-authority=/k8s/kubernetes/ssl/ca.pem \
+  --embed-certs=true \
+  --server=${KUBE_APISERVER} \
+  --kubeconfig=admin.kubeconfig
+
+
+
+# 设置一个管理用户为admin，并配置访问证书
+
+kubectl config set-credentials admin \
+  --client-certificate=/k8s/kubernetes/ssl/server.pem \
+  --client-key=/k8s/kubernetes/ssl/server-key.pem \
+  --embed-certs=true \
+  --kubeconfig=admin.kubeconfig
+
+# 设置一个名为default使用default集群与admin用户的上下文，
+
+kubectl config set-context default \
+  --cluster=kubernetes \
+  --user=admin \
+  --kubeconfig=admin.kubeconfig
+
+# 启用default为默认上下文
+kubectl config use-context default --kubeconfig=admin.kubeconfig
+```
+
+# 创建配置文件
+
+```
+
+cp admin.kubeconfig ~/.kube/config
+/etc/profile.d/kube.sh  把kubectl 加到path
+
+```
