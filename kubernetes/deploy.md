@@ -104,7 +104,7 @@ cd /k8s/etcd/ssl/
 --ca-file=ca.pem --cert-file=server.pem \
 --key-file=server-key.pem \
 --endpoints="https://172.28.80.207:2379,\
-https://https://172.28.80.205:2379,https://https://172.28.80.211:2379" \
+https://172.28.80.205:2379,https://172.28.80.211:2379" \
 set /coreos.com/network/config  '{ "Network": "10.18.0.0/16", "Backend": {"Type": "vxlan"}}'
 
 FLANNEL_OPTIONS="--etcd-endpoints=https://172.28.80.207:2379,https://172.28.80.205:2379,https://172.28.80.211:2379 -etcd-cafile=/k8s/etcd/ssl/ca.pem -etcd-certfile=/k8s/etcd/ssl/server.pem -etcd-keyfile=/k8s/etcd/ssl/server-key.pem"
