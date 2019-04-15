@@ -254,3 +254,29 @@ kubectl get csr
  kubectl certificate approve node-csr-ddB3GwD94NKP1ZJ8Rfn_cZe5eOWL_MkX9VLdEI5pAmY
 
 ```
+
+
+
+## 访问 Kubelet
+
+```
+kubectl create clusterrolebinding the-boss --user  kubernetes --clusterrole cluster-admin
+```
+
+kubectl exec 的时候出现了 error: unable to upgrade connection: Forbidden (user=system:anonymous, verb=create, resource=nodes, subresource=proxy)
+
+我按照如下文档，在 api 启动参数添加--kubelet-client-certificate 和 --kubelet-client-key
+kubelet 启动参数添加 --client-ca-file
+然后运行 exec 就提示 kubernetes 用户无权限(原来提示匿名用户，现在提示 kubernetes 用户，我参数指定是 kube-api 用的 ca 证书，推测这个用户是证书里写的吧？)，然后再给 kubernetes 用户赋了 cluster-admin 权限就可以了
+
+
+
+##
+
+```
+出去行号
+cat  /cygdrive/c/Users/mengyuetao/Desktop/x.txt    |  sed 's/^[ ]*[0-9]\+[ ]*//'
+
+
+cat  /cygdrive/c/Users/mengyuetao/Desktop/x.txt    | sed 's/[ ][ ]*/ /g' | sort -u
+```
