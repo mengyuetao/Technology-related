@@ -1,12 +1,12 @@
 KUBE_APISERVER_OPTS="--logtostderr=false \
---v=4 \
+--v=2 \
 --log-dir /k8s/kubernetes/log \
---etcd-servers=https://172.28.80.207:2379,https://172.28.80.205:2379,https://172.28.80.211:2379 \
---bind-address=172.28.80.207 \
+--etcd-servers=https://10.0.2.4:2379,https://10.0.2.5:2379,https://10.0.2.6:2379 \
+--bind-address=10.0.2.4 \
 --secure-port=6443 \
---advertise-address=172.28.80.207 \
+--advertise-address=10.0.2.4 \
 --allow-privileged=true \
---service-cluster-ip-range=10.0.0.0/16 \
+--service-cluster-ip-range=10.1.0.0/16 \
 --enable-admission-plugins=NamespaceLifecycle,LimitRanger,SecurityContextDeny,ServiceAccount,ResourceQuota,NodeRestriction \
 --authorization-mode=RBAC,Node \
 --enable-bootstrap-token-auth \
@@ -15,6 +15,8 @@ KUBE_APISERVER_OPTS="--logtostderr=false \
 --tls-cert-file=/k8s/kubernetes/ssl/server.pem  \
 --tls-private-key-file=/k8s/kubernetes/ssl/server-key.pem \
 --client-ca-file=/k8s/kubernetes/ssl/ca.pem \
+--kubelet-client-certificate=/k8s/kubernetes/ssl/server.pem \
+--kubelet-client-key=/k8s/kubernetes/ssl/server-key.pem \
 --service-account-key-file=/k8s/kubernetes/ssl/ca-key.pem \
 --etcd-cafile=/k8s/etcd/ssl/ca.pem \
 --etcd-certfile=/k8s/etcd/ssl/server.pem \

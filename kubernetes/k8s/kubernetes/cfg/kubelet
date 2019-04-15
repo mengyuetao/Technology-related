@@ -1,10 +1,11 @@
 KUBELET_OPTS="--logtostderr=false  \
---v=4 \
+--v=2 \
 --log-dir /k8s/kubernetes/log \
---hostname-override=172.28.80.205 \
+--hostname-override=10.0.2.4 \
 --kubeconfig=/k8s/kubernetes/cfg/kubelet.kubeconfig \
 --bootstrap-kubeconfig=/k8s/kubernetes/cfg/bootstrap.kubeconfig \
 --config=/k8s/kubernetes/cfg/kubelet.config \
 --cert-dir=/k8s/kubernetes/ssl \
+--client-ca-file=/k8s/kubernetes/ssl/ca.pem \
 --pod-infra-container-image=registry.cn-hangzhou.aliyuncs.com/google-containers/pause-amd64:3.0"
 
