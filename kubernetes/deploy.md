@@ -24,7 +24,8 @@ node1 172.28.80.207
 node2 172.28.80.211
 
 pod 网络  10.18.0.0/16
-service 网络 10.0.0.0/16
+service 网络 10.1.0.0/16
+dns 网络 10.2.0.0/16
 
 
 #### 环境准备命令
@@ -264,5 +265,20 @@ cp admin.kubeconfig ~/.kube/config
 ```
 kubectl get csr
  kubectl certificate approve node-csr-ddB3GwD94NKP1ZJ8Rfn_cZe5eOWL_MkX9VLdEI5pAmY
+
+```
+
+
+
+# 部署 DNS
+
+https://github.com/coredns/deployment/tree/master/kubernetes github 部署说明
+https://blog.csdn.net/wyc_cs/article/details/88177007  安装CoreDNS实现Kubernetes的服务发现
+https://blog.csdn.net/ccy19910925/article/details/80762025  kubernetes上的服务发现-CoreDNS配置
+
+```
+
+
+
 
 ```
