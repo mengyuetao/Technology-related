@@ -270,6 +270,7 @@ kubectl get csr
 
 
 
+<<<<<<< HEAD
 # 部署 DNS
 
 https://github.com/coredns/deployment/tree/master/kubernetes github 部署说明
@@ -282,3 +283,18 @@ https://blog.csdn.net/ccy19910925/article/details/80762025  kubernetes上的服�
 
 
 ```
+=======
+
+## 配置存储nfs，网络访问
+
+- k8s 本地存储和网络存储 https://blog.csdn.net/qq_25611295/article/details/85632226
+- Kubernetes1.13.0实用整理-k8s存储NFS 即NFS作为Volume https://blog.csdn.net/shenhonglei1234/article/details/84996226
+- Kubernetes使用StorageClass动态生成NFS类型的PV https://www.cnblogs.com/00986014w/p/9406962.html
+- nfs https://www.cnblogs.com/alonones/p/6105586.html
+
+- nmtui nmcli peerdns 网络命令
+
+```
+showmount -e 127.0.0.1
+```
+>>>>>>> 更新安装方法
