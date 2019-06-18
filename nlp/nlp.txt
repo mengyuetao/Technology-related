@@ -1,0 +1,15 @@
+
+## 数学基础
+https://blog.csdn.net/baishuo8/article/details/80858692 向量的乘法运算
+
+
+## 方向
+http://www.52nlp.cn/tag/google-bert 我爱自然语言处理
+https://zhuanlan.zhihu.com/p/49271699  从Word Embedding到Bert模型—自然语言处理中的预训练技术发展史
+
+## 知识点展开
+
+http://zh.d2l.ai/ 动手学深度学习
+https://www.youtube.com/watch?v=C4X0Cb5_FSo  动手学深度学习第十六课：词向量（word2vec）
+https://gist.github.com/aparrish/2f562e3737544cf29aaf1af30362f469  Understanding word vectors
+http://onlinehub.stanford.edu/cs224/190108-cs224n-1080     Stanford CS224N: NLP with Deep Learning  斯坦福NLP经典课程

@@ -21,3 +21,7 @@ git pull origin r01
 
 获取指定的分支信息到本地 + 刷新本地分支，即使 notfast forward
 git fetch origin +$local_git_branch:$remote_git_branch
+
+
+
+https://git-scm.com/book/en/v2/Git-on-the-Server-Setting-Up-the-Server
