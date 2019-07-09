@@ -41,4 +41,14 @@ kubectl rm ReplicationController kubia        # delete rc
 kubectl run kubia --image=mengyuetao/kubia --port=8080 --generator=run/v1     #run a pod
 kubectl scale rc kubia --replicas=2                                           #scale a rep
 
+ kubectl exec -it speechgw-deployment-5cbd9f6747-bmssv bash
+ kubectl exec -it  markplatform-deployment-75f6cfdb9f-jn5mq bash
+
+
 ```
+
+
+- k8s 本地存储和网络存储 https://blog.csdn.net/qq_25611295/article/details/85632226
+- Kubernetes1.13.0实用整理-k8s存储NFS 即NFS作为Volume https://blog.csdn.net/shenhonglei1234/article/details/84996226
+- Kubernetes使用StorageClass动态生成NFS类型的PV https://www.cnblogs.com/00986014w/p/9406962.html
+- nfs https://www.cnblogs.com/alonones/p/6105586.html
