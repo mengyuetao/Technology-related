@@ -1,4 +1,11 @@
+###
 
+创建用户
+```
+ create user 'nlp'@'%' identified by 'MyNewPass4!'
+ GRANT  ALL  ON  *.*  TO  'nlp'@'%'
+ FLUSH PRIVILEGES
+```
 
 ### 修改数据库 updateTime+1
 
