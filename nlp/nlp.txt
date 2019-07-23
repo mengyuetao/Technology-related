@@ -6,6 +6,7 @@ https://blog.csdn.net/baishuo8/article/details/80858692 向量的乘法运算
 ## 方向
 http://www.52nlp.cn/tag/google-bert 我爱自然语言处理
 https://zhuanlan.zhihu.com/p/49271699  从Word Embedding到Bert模型—自然语言处理中的预训练技术发展史
+https://blog.csdn.net/u014597198/article/details/82182462  人工智能 之 自然语言处理（NLP）算法分类总结
 
 ## 知识点展开
 
