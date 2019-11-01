@@ -14,3 +14,5 @@ http://zh.d2l.ai/ 动手学深度学习
 https://www.youtube.com/watch?v=C4X0Cb5_FSo  动手学深度学习第十六课：词向量（word2vec）
 https://gist.github.com/aparrish/2f562e3737544cf29aaf1af30362f469  Understanding word vectors
 http://onlinehub.stanford.edu/cs224/190108-cs224n-1080     Stanford CS224N: NLP with Deep Learning  斯坦福NLP经典课程
+https://lilianweng.github.io/lil-log/2017/10/15/learning-word-embedding.html
+https://skymind.ai/wiki/word2vec    A Beginner's Guide to Word2Vec and Neural Word Embeddings
