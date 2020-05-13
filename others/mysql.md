@@ -41,3 +41,9 @@ SELECT info,SUBSTRING(info,LOCATE('count',info)+7,LOCATE('}',info,LOCATE('count'
 ## 权限
 
 GRANT ALL ON test.* TO 'root'@'%';
+
+
+## 日志
+SHOW VARIABLES LIKE "general_log%"
+;
+set global general_log_file = "/data/mysql/nlpmysql.2.log" ;

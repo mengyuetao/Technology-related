@@ -29,3 +29,13 @@ ref：https://zhuanlan.zhihu.com/p/49271699  从Word Embedding到Bert模型—�
 - Transformer
     https://jalammar.github.io/illustrated-transformer/
     http://nlp.seas.harvard.edu/2018/04/03/attention.html
+
+
+https://www.cnblogs.com/tgzhu/p/10571675.html   NLP VS NLU
+https://www.cnblogs.com/qcloud1001/p/9182421.html
+
+
+## git 资源
+
+https://github.com/huggingface/transformers State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch
+https://huggingface.co/transformers/examples.html#glue 

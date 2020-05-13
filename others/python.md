@@ -10,3 +10,25 @@ make install
 
 python3 -m venv ev1/
 source activate
+
+
+
+
+# conda
+
+https://www.jianshu.com/p/eaee1fadc1e9 Anaconda完全入门指南
+https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#viewing-a-list-of-your-environments
+
+```
+conda env list  
+conda --version
+conda create -n learn python=3
+activate learn
+
+conda install
+conda list
+conda env export > environment.yaml
+
+conda info --envs
+
+```
