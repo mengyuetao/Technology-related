@@ -37,6 +37,7 @@ kubectl get services                       # get service
 kubectl get svc -o yaml                    # get service
 kubectl logs kubia-manual                  # get logs
 kubectl port-forward kubia-manual 8888:8080   # create forward for test
+kubectl port-forward  --address 0.0.0.0  consul-server-0  8500:8500
 kubectl rm ReplicationController kubia        # delete rc
 kubectl run kubia --image=mengyuetao/kubia --port=8080 --generator=run/v1     #run a pod
 kubectl scale rc kubia --replicas=2                                           #scale a rep
