@@ -19,6 +19,9 @@ source activate
 https://www.jianshu.com/p/eaee1fadc1e9 Anaconda完全入门指南
 https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#viewing-a-list-of-your-environments
 
+https://blog.csdn.net/yunken28/article/details/105035577/ conda安装pytorch总是下载失败，解决方法
+
+
 ```
 conda env list  
 conda --version
