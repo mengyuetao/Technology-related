@@ -23,6 +23,27 @@ docker run --name kubia-container -p 8080:8080 -d kubia   #run a image  with con
 docker run -p 8001:8080 -d mengyuetao/kubia       
 docker service ls                         # list all the service
 docker stop kubia-container               # stop a service
-docker tag kubia mengyuetao/kubia         # tag the image 
+docker tag kubia mengyuetao/kubia         # tag the image
+
+```
+
+
+```
+docker build --tag bulletinboard:1.0 .
+docker run --publish 8000:8080 --detach --name bb bulletinboard:1.0
+docker rm --force bb
+
+docker stop bb
+docker rm  bb
+
+docker volume create my-vol
+docker volume ls
+docker volume rm my-vol
+
+
+docker volume create --driver local --opt type=nfs --opt o=addr=192.168.138.130,rw --opt device=:/data/nfs volume-nfs
+docker run  --mount source=myvol2,target=/app --name dbstore ubuntu /bin/bash
+
+
 
 ```
