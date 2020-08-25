@@ -44,7 +44,7 @@ kubectl scale rc kubia --replicas=2                                           #s
 
  kubectl exec -it speechgw-deployment-5cbd9f6747-bmssv bash
  kubectl exec -it  markplatform-deployment-75f6cfdb9f-jn5mq bash
-
+kubectl get  all  -n  namespace  -o yaml  > xxxxxx
 
 ```
 
