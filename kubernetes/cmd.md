@@ -53,3 +53,7 @@ kubectl get  all  -n  namespace  -o yaml  > xxxxxx
 - Kubernetes1.13.0实用整理-k8s存储NFS 即NFS作为Volume https://blog.csdn.net/shenhonglei1234/article/details/84996226
 - Kubernetes使用StorageClass动态生成NFS类型的PV https://www.cnblogs.com/00986014w/p/9406962.html
 - nfs https://www.cnblogs.com/alonones/p/6105586.html
+
+- http://blog.itpub.net/69953029/viewspace-2695917/ 更新应用时，如何实现 K8s 零中断滚动更新？
+- https://www.cnblogs.com/huaweiyuncce/p/9996006.html K8S漏洞报告 | 近期bug fix解读&1.9.11主要bug fix汇总 因此iptables模式实现优雅删除功能不需要任何的代码，以来底层机制即可。
+https://www.cnblogs.com/guigujun/archive/2004/01/13/10591919.html Kubernetes系列之理解K8s Service的几种模式

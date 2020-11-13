@@ -27,6 +27,11 @@
 ## 疑问
 - `RouteLocator` 是否可以和配置合用呢
 - `Httphandler` 和 gateway的关系
+- 这个玩样看着简单，但是不知道怎么用
 
 ## 遗留
 - `flatten-maven-plugin`
+
+## 架构分析
+一个gateway包含很多route，每个route 通过 Predicate进入 route，route里面有很多filter
+route可以由 properties 组装
