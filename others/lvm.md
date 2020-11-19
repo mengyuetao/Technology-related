@@ -36,3 +36,4 @@ vgextend centos /dev/sda3
 lvdisplay
 lvextend /dev/centos/root /dev/sda3
 xfs_growfs  /dev/centos/root
+resize2fs /dev/centos/root

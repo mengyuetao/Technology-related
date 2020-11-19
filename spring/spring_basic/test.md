@@ -6,9 +6,11 @@
 
 ## principle
 
-unit test
 You can instantiate objects by using new operator
 you can use mock objects instead of real dependencies
+you need to move beyond unit testing and start integration(with a Spring ApplicationContext)
+- perform integration testing without requiring deployment of your application
+- or connect to other infrastructure
 
 
 ## Mockito
