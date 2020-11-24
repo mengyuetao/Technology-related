@@ -34,6 +34,17 @@ GatewayAutoConfiguration routePredicateHandlerMapping HandlerMapping
 
 ## loadbalancer
 https://spring.io/guides/gs/spring-cloud-loadbalancer/
+https://www.jianshu.com/p/dea0fff94e64  Spring Cloud升级之路 - Hoxton - 3. 负载均衡从ribbon替换成spring-cloud-loadbalancer
+https://www.cnblogs.com/yourbatman/p/11532729.html  为何一个@LoadBalanced注解就能让RestTemplate拥有负载均衡的能力？
+https://fangshixiang.blog.csdn.net/article/details/100890879 @Qualifier高级应用---按类别批量依赖注入
+
+LoadBalancerClientConfiguration ? LoadBalancerAutoConfiguration
+LoadBalancerAutoConfiguration
+ReactiveLoadBalancerAutoConfiguration
+
+GatewayReactiveLoadBalancerClientAutoConfiguration
+LoadBalancerAutoConfiguration
+
 
 ## 异步基础
 https://projectreactor.io/docs/core/release/reference/
