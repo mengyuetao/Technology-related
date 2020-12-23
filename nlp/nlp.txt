@@ -2,14 +2,12 @@
 ## 数学基础
 https://blog.csdn.net/baishuo8/article/details/80858692 向量的乘法运算
 
-
 ## 方向
 http://www.52nlp.cn/tag/google-bert 我爱自然语言处理
 https://zhuanlan.zhihu.com/p/49271699  从Word Embedding到Bert模型—自然语言处理中的预训练技术发展史
 https://blog.csdn.net/u014597198/article/details/82182462  人工智能 之 自然语言处理（NLP）算法分类总结
 
 ## 知识点展开
-
 http://zh.d2l.ai/ 动手学深度学习
 https://www.youtube.com/watch?v=C4X0Cb5_FSo  动手学深度学习第十六课：词向量（word2vec）
 https://gist.github.com/aparrish/2f562e3737544cf29aaf1af30362f469  Understanding word vectors
@@ -38,4 +36,4 @@ https://www.cnblogs.com/qcloud1001/p/9182421.html
 ## git 资源
 
 https://github.com/huggingface/transformers State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch
-https://huggingface.co/transformers/examples.html#glue 
+https://huggingface.co/transformers/examples.html#glue
