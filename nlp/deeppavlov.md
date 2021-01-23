@@ -22,3 +22,5 @@ pip install tensorflow=1.15
 
 流程
 https://towardsdatascience.com/the-bert-based-text-classification-models-of-deeppavlov-a85892f14d61
+
+https://zhuanlan.zhihu.com/p/151397491?from_voters_page=true Deeppavlov 20年DRL前沿新课-《深度强化学习前沿主题》课程分享

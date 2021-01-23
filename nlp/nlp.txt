@@ -8,17 +8,10 @@ https://zhuanlan.zhihu.com/p/49271699  从Word Embedding到Bert模型—自然�
 https://blog.csdn.net/u014597198/article/details/82182462  人工智能 之 自然语言处理（NLP）算法分类总结
 
 ## 知识点展开
-http://zh.d2l.ai/ 动手学深度学习
-https://www.youtube.com/watch?v=C4X0Cb5_FSo  动手学深度学习第十六课：词向量（word2vec）
-https://gist.github.com/aparrish/2f562e3737544cf29aaf1af30362f469  Understanding word vectors
 http://onlinehub.stanford.edu/cs224/190108-cs224n-1080     Stanford CS224N: NLP with Deep Learning  斯坦福NLP经典课程
-https://lilianweng.github.io/lil-log/2017/10/15/learning-word-embedding.html
-https://skymind.ai/wiki/word2vec    A Beginner's Guide to Word2Vec and Neural Word Embeddings
 
 
 ## 技术分析1
-ref：https://zhuanlan.zhihu.com/p/49271699  从Word Embedding到Bert模型—自然语言处理中的预训练技术发展史
-
 - 预训练，Frozen，Fine-Tuning ; 在数据较少的情况下，基于预训练模型大量的数据基础进行优化，训练数据多，收敛快；越底层特征抽取，任务相关性越小；ImageNet 分量足，通用性
 - NLP预训练，NNLM 到 word2vec ，到ELMO 通过补充上下文解决多义词，GPT 预训练更符合图像处理模式（特征提取使用transformer，踢开CNN，RNN特征提取器），Bert（双向模型）
 - NLP 四大任务：序列标注（分词、词性、实体）；分类；句子关系（给定两个句子，模型判断出两个句子是否具备某种语义关系）；
@@ -37,3 +30,7 @@ https://www.cnblogs.com/qcloud1001/p/9182421.html
 
 https://github.com/huggingface/transformers State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch
 https://huggingface.co/transformers/examples.html#glue
+
+
+https://www.jianshu.com/p/9e9e8f12f851  从零开始学习自然语言处理(NLP)
+http://docs.deeppavlov.ai/en/master/s

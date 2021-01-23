@@ -1,2 +1,0 @@
-https://blog.csdn.net/weixin_40793406/article/details/84666803 深度学习入门之Pytorch——Momentum
-https://blog.csdn.net/qq_42109740/article/details/105401197?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.channel_param  深度学习梯度更新各类优化器详细介绍
