@@ -1,0 +1,9 @@
+ ssh -N -D 192.168.2.136:7070 7803.54fuwu.com@vip5.54fuwu.com
+
+913  firewall-cmd  --add-forward-port=port=443:proto=tcp:toport=443:toaddr=192.168.122.81
+  914  firewall-cmd --list-all
+  915  iptables -L FORWARD
+  916  iptables -L FORWARD --number
+  917  iptables -L FORWARD --line-number
+  918  iptables -D FORWARD 4
+  919  iptables -L FORWARD --line-number

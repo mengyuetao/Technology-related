@@ -1,4 +1,9 @@
 
+# overview
+- 关于配置无非就三种：环境变量、配置文件、程序参数
+- 配置的基础设施：configmap，注意点映射到目录还是单个文件，目录会覆盖当前目录
+- Statefulset ， ip ，磁盘都是可以锁定的，就像宠物和畜生的区别
+- Volume，volume 和 volume clain 关联， volume class 可以自动创建volume
 
 # command
 

@@ -1,6 +1,8 @@
 
 
 
+## 文档路径
+https://www.elastic.co/guide/en/elasticsearch/reference/current/indices.html
 
 ## 环境安装
 
@@ -42,3 +44,31 @@ get /my_index/_search
 match 被重写成 term
 
 Boolean
+
+## example
+
+```
+删除所有数据
+POST /test/_delete_by_query
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
+结构化查询
+POST test/_search
+{
+  "query": {
+    "bool":{
+       "must" : {
+        "term" : {"videoName":"欲" }
+      },
+    "filter": {
+        "term" : {"videoName":"测试"}
+      }
+    }
+  }
+}
+
+```
