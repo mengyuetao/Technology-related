@@ -1,0 +1,112 @@
+http://blog.itpub.net/69946223/viewspace-2654671/   从不温不火到炙手可热：语音识别技术简史 
+https://www.msra.cn/zh-cn/news/features/2019-review-nlp-speech  2020开年解读：NLP新范式凸显跨任务、跨语言能力，语音处理落地开花
+https://mp.weixin.qq.com/s?__biz=MzAwMTA3MzM4Nw==&mid=2649445499&idx=1&sn=388db9c1117a1f406057229d589e4203&chksm=82c0bdffb5b734e9d83b32f3738be8b2f04659feeec2bbd563f9d25ebe6b3659b82a3da7a688&scene=21#wechat_redirect  预见未来 | NLP将迎来黄金十年
+https://blog.csdn.net/stay_foolish12/article/details/90753212  对话周明：回望过去，展望未来，NLP有哪些发展趋势？
+
+知识图谱
+http://www.elecfans.com/d/1007842.html  NLP、知识图谱是人工智能下一个发展方向
+https://www.sohu.com/a/389505362_114819 知识图谱如何让“人工智能”更智能？
+https://www.jianshu.com/p/f1133796d1af 知识图谱的问啊在美团智能交互场景中的应用
+https://www.jianshu.com/p/52d181227429  如何构建阿里小蜜算法模型的迭代闭环？
+https://blog.csdn.net/u012892939/article/details/79476756 各类QA问答系统的总结与技术实现（持续更新）
+https://www.sohu.com/a/254229313_100130966 知识图谱助力智能问答和精准检索的实践应用（仅图可用）
+file:///C:/Users/mfty1/Downloads/腾讯知文：从0到1搭建智能客服系统.pdf  （参考好文）
+http://www.nlpr.ia.ac.cn/cip/~liukang/liukangPageFile/ACL2017-Hao.pdf  
+https://zhuanlan.zhihu.com/p/39455791  An End-to-End Model for KBQA笔记
+https://zhuanlan.zhihu.com/p/134090164  针对复杂问题的知识图谱问答最新进展
+https://blog.csdn.net/pelhans/article/details/80019974 知识图谱入门 (一) 知识图谱与语义技术概览
+https://www.zhihu.com/question/19748150 语义搜索的核心价值是什么？是搜索引擎的未来方向吗？
+https://coffee.pmcaff.com/article/13509751_j  基于知识图谱的语义理解技术及应用    （百度好文）
+https://www.jiqizhixin.com/articles/2017-06-15-5  百度NLP | 神经网络语义匹配技术 （百度好文）
+
+
+https://mp.weixin.qq.com/s?__biz=Mzg2MzAyMDIzMQ==&mid=2247526090&idx=1&sn=b6aa2347c89e5a946bd9f2dbac5fc8c9&chksm=ce7cd362f90b5a744f011fc2f5ebab473e4927f46cbd0d5e511b122c8e17d51ddb9ca2e9898a&mpshare=1&scene=1&srcid=&sharer_sharetime=1588155450049&sharer_shareid=c6816c5ab4d541e9de09bc6d43b0ec76&key=95707dadda1b38cddfb41693e14e1b66173b95f1bead29ae7540c3a851d8816b35cf01a6531e54dfdbe732267a0c4a2c00e0ba5a4b2f6fc6f0ca4dc4bcbcfce4b955c2fa2f427b0f20f819fde8fc38b9&ascene=1&uin=MjU5Mjk2MjI2MA%3D%3D&devicetype=Windows+10+x64&version=62090070&lang=zh_CN&exportkey=ASTvNgV52drJNdozxvuo7Z0%3D&pass_ticket=XtJ4xGV9KnAmOdTVQ%2BU%2FN4cdSFhRcZ2ossAAv6sYMwxcGc1V6xD6%2Flcqq6S0jt6v
+
+智能聊天机器人在汽车领域的应用实践（不错好文，技术细节类）
+
+
+https://blog.csdn.net/weixin_43269174/article/details/105464161 KBQA: 趋势大赏
+https://www.aclweb.org/anthology/N19-1299.pdf
+https://zhuanlan.zhihu.com/p/134090164 针对复杂问题的知识图谱问答最新进展
+https://mp.weixin.qq.com/s?__biz=MzU2OTA0NzE2NA==&mid=2247489335&idx=1&sn=1076f0db7629d166528d30c87bb2fd96&chksm=fc85f624cbf27f32c5a7c34a75ef833714f65960a902d530a8fc3f6637718c3bba6453cfeb6a#rd  最新人机对话系统简略综述 （图：检索式对话，好文）
+
+https://www.jiqizhixin.com/articles/2020-02-17-3 语音识别新范式：完全的“端到端”模型，优势在哪里？
+https://www.zhuanzhi.ai/document/4d0823c039c6963c554e46aa104685d2 【教程】语音识别中的End-to-End模型教程（附178页PDF全文下载）
+https://xueqiu.com/9217191040/137595747  端到端语音识别时代来临：网易杭州研究院的智能语音探索之路
+https://zhuanlan.zhihu.com/p/48729548 端到端的语音识别（ASR）错词率降低到至3.4%左右
+https://benzblog.site/2019-06-25-%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB%E5%88%9D%E6%8E%A2/  语音识别初探
+https://cloud.tencent.com/developer/news/375304 端到端语音识别时代
+
+https://www.taihuoniao.com/topic/view/184016 语音交互：从场景到趋势
+https://www.jiqizhixin.com/articles/2018-12-26-11 2019年人工智能应用的四大趋势
+http://m.elecfans.com/article/1027933.html  关于讯飞对人机交互的未来的展望
+https://www.jiqizhixin.com/articles/2020-01-03-11 人工智能的尴尬2019及破局2020，三大技术九大行业解析 （好文）
+https://zhuanlan.zhihu.com/p/76681176 从感知智能到认知智能：自然语言处理、知识图谱技术的发展与未来
+https://www.zcool.com.cn/article/ZOTIxMzMy.html 人机自然交互在商业场景中的设计探索
+http://www.impcia.net/Uploads/report/2019-08-28/5d6656a419d9b.pdf 机器人4.0白皮书 
+https://www.slidestalk.com/u7/How_Human_Computer_Interaction_Will_Change_Human_Life_in_the_Future 翁嘉颀-人机交互未来如何改变人类生活
+https://ai.baidu.com/forum/topic/show/492823  百度陆奇详解人工智能的商业化逻辑 （图不错） 
+https://www.gsma.com/futurenetworks/wiki/ai-automation-an-overview/
+https://www.6aiq.com/article/1585714421090?p=1&m=0 基于知识图谱的语义理解技术及应用
+http://www.loicvideos.com/mrmy/5284.html  王海峰谈人工智能：语音合成也取得巨大进展 （图不错）
+https://daydaynews.cc/zh-my/technology/297038.html  拓尔思(300229):人工智能新标杆，语义智能第一股 （图不错）
+https://www.chainnews.com/articles/552703743866.htm 揭秘阿里达摩院！P10 大佬教你如何构建 AIoT 智能语音交互技术（图不错，很赞）
+https://www.chinaz.com/news/2019/0822/1041426.shtml  从不温不火到炙手可热：语音识别技术简史
+http://mp.ofweek.com/ai/a645683927046 人机交互技术研究的最新趋势
+https://www.zhihu.com/question/48537863  远场（far-field）语音识别的主流技术有哪些？
+https://www.zhihu.com/question/66064776?utm_source=qq&utm_medium=social  语音前端和语音识别哪个更有研究价值？
+https://zhuanlan.zhihu.com/p/35648321?utm_source=qq&utm_medium=social  腾讯AI Lab西雅图实验室负责人俞栋：语音识别领域的现状与进展
+http://blog.sina.com.cn/s/blog_406f872d0102zi53.html VRIO模型——以星巴克为例（转摘并配图）
+http://www.elecfans.com/d/723528.html 常识知识有助于开放域对话系统中语言的理解与生成
+https://zhuanlan.zhihu.com/p/67186653 人工智能=人工智障？对话交互如何打破这个魔咒？
+https://www.infoq.cn/article/QpC2C5HSpHRM9v88Llv0 人机对话关键技术及挑战   （好图，说明闲聊的架构）
+https://rpa-pdf.oss-cn-hangzhou.aliyuncs.com/IDC%EF%BC%9A对话式人工智能白皮书.pdf   对话式人工智能白皮书.
+https://tech.meituan.com/2019/11/14/nlp-bert-practice.html  美团BERT的探索和实践
+https://zhuanlan.zhihu.com/p/52197399 「回顾」自然语言处理中的多任务学习
+https://easyai.tech/ai-definition/nlp/ 自然语言处理-Natural language processing | NLP
+http://www.ipaomi.com/2019/10/27/nlp-%E5%B0%B1%E8%BF%99-5-%E4%B8%AA%E9%97%AE%E9%A2%98%EF%BC%9A%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86%E4%BA%94%E5%A4%A7/  NLP 就这 5 个问题：基于深度学习的自然语言处理五大核心问题（路线图/思维导图）
+
+http://m.it168.com/article_6142500.html 语音识别新范式：完全的“端到端”模型，优势在哪里？
+https://www.sohu.com/a/235928799_748289  边界！语音交互技术在垂直领域是有边界的！
+https://www.iyiou.com/p/78283.html 远场识别、场景数据获取……语音识别还面临多少技术难题?
+http://www.twwtn.com/detail_275522.htm  2019WAIDC | 一览群智：自然语言处理与行业应用
+https://mlln.cn/2018/06/02/[%E8%BD%AC]%E5%90%8A%E7%82%B8%E5%A4%A9%E7%9A%84%E4%B8%AD%E6%96%87%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86%E5%B7%A5%E5%85%B7%E5%92%8C%E8%AF%AD%E6%96%99%E5%BA%93%E4%BB%8B%E7%BB%8D/  (译)吊炸天的中文自然语言处理工具和语料库介绍
+https://blog.csdn.net/king_audio_video/article/details/89226842  语音识别技术简述（概念->原理）
+https://www.jianshu.com/p/cde686e81b15  了解人机对话—聊天、问答、多轮对话和推荐
+https://blog.csdn.net/weixin_39508304/article/details/80405065 开放领域的问答系统
+https://www.iczhiku.com/hotspotDetail/jAGLZYHdN8MyB61r1gqYeA== Interspeech 2019 语音技术的发展趋势
+http://www.woshipm.com/evaluating/3074654.html  基于大屏的语音交互平台竞品分析报告：从闭环问答到开放交流
+https://www.transcribeme.com/speech-recognition-technology-trends-for-2020/   10 SPEECH RECOGNITION TECHNOLOGY TRENDS TO WATCH IN 2020
+https://www.grandviewresearch.com/industry-analysis/voice-speech-recognition-software-market    Voice And Speech Recognition Software Market Size, Share & Trends Analysis Report, By Function, By Technology (AI-based, Non-AI Based), By Vertical (Consumer, Automotive), And Segment Forecasts, 2019 - 2025
+https://www.askci.com/news/chanye/20180925/1557201132783.shtml   语音识别行业市场预测分析：2025年全球语音识别软件市场规模将69亿美元
+http://www.comaiot.com/news/news_detail_1.html  中国智能家居行业研究报告
+https://www.hotbak.net/key/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E8%A1%8C%E4%B8%9A%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A%E8%AF%86%E5%88%AB%E6%90%9C%E7%8B%90.html  人工智能行业研究报告
+https://www.shangyexinzhi.com/article/438978.html 2019-2021年中国智能语音市场预测与展望数据
+http://ccid.mtx.cn/detail/gcdetail.htm?id=683388 赛迪数据 | 2019-2021年中国智能语音市场预测与展望数据
+https://blog.csdn.net/anchker/article/details/87653103?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522158676757019725247619647%2522%252C%2522scm%2522%253A%252220140713.130056874..%2522%257D&request_id=158676757019725247619647&biz_id=0&utm_source=distribute.pc_search_result.none-task-blog-all_SOOPENSEARCH-1  人工智能报告
+ 
+https://www.icloudnews.net/a/20191225/26029.html 语音识别技术的研究难点以及未来发展方向 
+https://www.zte.com.cn/china/about/magazine/zte-technologies/2020/2-cn/4/4.html  AI语音识别使能5G智慧家庭 （概念好文）
+https://tech.163.com/19/0823/12/EN8UTQ0900098IEO.html 5G时代 语音识别将成为刚需 
+https://www.iyiou.com/p/109766.html 5G对音频的赋能到底是怎么发生的？ 
+https://zhuanlan.zhihu.com/p/123330115 「追光者-5G引领数字化」第六期：5G与AI语音交互 | 腾讯5G生态计划    
+https://www.jiqizhixin.com/articles/2020-02-17-3 语音识别新范式：完全的“端到端”模型，优势在哪里？ 
+https://www.jianshu.com/p/b46fa33d2606 AI语音行业紧缺，全栈语音工程师究竟有多难
+https://www.jianshu.com/p/4fc0a3f665fa 别急着进入智能语音行业，先看看市场趋势
+https://www.sohu.com/a/142545363_220528 巨头相继推出智能音箱争夺智能家居入口
+https://www.sohu.com/a/142545363_220528  从亚马逊谷歌再到BAT 巨头以语音为入口打造生态
+http://www.199it.com/archives/1021237.html   IDC ：预计到2023年中国对话式人工智能市场规模将达到18.6亿美元
+https://baijiahao.baidu.com/s?id=1629127638846719838&wfr=spider&for=pc   IDC：2018年中国智能家居设备市场盘点——过渡之年，承前启后
+https://baijiahao.baidu.com/s?id=1645606941371980367&wfr=spider&for=pc  智能家居行业研究报告｜36氪研究
+http://www.qianjia.com/html/2019-01/14_319812.html 2024年全球智能家居市场规模将达1514亿美元
+https://tech.sina.com.cn/roll/2020-01-09/doc-iihnzhha1248884.shtml  2019年中国智能音箱市场出货量成全球主力 天猫精灵持续领跑
+https://baijiahao.baidu.com/s?id=1660109090541042923&wfr=spider&for=pc  2019年中国智能语音行业现状及竞争格局，行业初现寡头垄断
+http://www.chyxx.com/industry/201904/728625.html 中国智能语音行业发展趋势预测：市场规模将达159.7亿[图]
+http://finance.sina.com.cn/stock/relnews/hk/2019-11-20/doc-iihnzahi2209509.shtml 2021年中国智能语音市场规模将达到194.8亿元
+http://www.cena.com.cn/industrynews/20200109/104168.html 赛迪数据 | 2019-2021年中国智能语音市场预测与展望数据
+ 
+https://www.sohu.com/a/387159835_115128 揭秘阿里达摩院
+
+
+https://blog.csdn.net/qwwersong/article/details/78362357 语音识别（技术好文）
+ 
