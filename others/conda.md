@@ -26,7 +26,7 @@ https://blog.csdn.net/yunken28/article/details/105035577/ conda安装pytorch总�
 conda env list  
 conda --version
 conda create -n learn python=3
-activate learn
+conda activate learn
 
 conda install
 conda list
